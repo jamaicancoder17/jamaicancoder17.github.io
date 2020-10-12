@@ -65,9 +65,9 @@ var main = function(){
             message.classList.remove("you-won");
         
             //Resetting the board state
-            //boardState = ["a","b","c","d","e","f","g","h","i"];
-            //count = 0;
-            //console.log("Cleared it");
+            boardState = ["a","b","c","d","e","f","g","h","i"];
+            count = 0;
+            console.log("Cleared it");
             location.reload();
         });
 
